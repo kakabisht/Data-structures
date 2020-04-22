@@ -47,7 +47,6 @@ class LinkedList : public Node
 void LinkedList :: Create()
 {
     int i, n;
-    Node * temp;
     cout<<"\n How many nodes :";
     cin>>n;
     for(int i=0; i<n; i++)
@@ -60,7 +59,7 @@ void LinkedList :: Create()
                 listptr = temp = newnode;
             else
             {
-                temp -> next = newnode;
+                temp -> next = newnode;//temp currently points towards current block
                 temp = temp->next;
             }
         }
@@ -85,7 +84,7 @@ void LinkedList:: Display()
     else
     {
        cout<<"\n";
-        while (current_node != NULL)
+        while (current_node != NULL) //iterate till it reaches last block
         {
             cout << current_node->data << "--->";
             current_node = current_node->next;         /*    move temp to the next node */
