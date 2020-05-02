@@ -315,9 +315,9 @@ void LinkedList :: Search()
 }
 void LinkedList ::Reverse(){
     Node * forward, *curr, *back; 
-    Node *returnthis;
     forward    = listptr; 
     curr =    NULL;
+    back=NULL;
     while ( forward != NULL )
     {    
         back = curr;
@@ -325,8 +325,7 @@ void LinkedList ::Reverse(){
         forward = forward->next;
         curr-> next = back;
     }
-    returnthis = curr;
-    listptr = returnthis;
+     listptr= curr;
 }
 int main()
 {
