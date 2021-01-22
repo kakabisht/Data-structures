@@ -12,4 +12,5 @@ Hi this is my Data strucutres assignments , there are various data strucutres al
 
 6.Graphs: Has Adjacency Matrix,  Adjacency List, Prim's algorithm, Kruskal's algorithm, dijkstra's algorithm and topological sort :  https://programmerprodigy.code.blog/2020/10/22/basics-of-graphs/ 
 
-
+7.Hashing: hashing functions, collision resolution strategies, chaining with and without replacement, chaining using linked list and extendible hashing: 
+https://programmerprodigy.code.blog/2021/01/20/intro-into-hashing/
